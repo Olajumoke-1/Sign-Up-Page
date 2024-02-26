@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+/* Card styles */
+.card{
+    background-color:rgba(211, 211, 211, 0.411);
+    width: 420px;
+    height: 520px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h2 styles */
+h2{
+    text-align: center;
+    margin-left: 5px;
+}
+
+/* Span styles */
+span:after, span:before{
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: monospace;
+}
+
+/* Utext styles */
+.Utext{
+    margin-top: 0px;
+    color: lightslategray;
+    font-size: 15px;
+    font-family:  'Verdana', 'sans-serif';
+    margin-left: 30px;
+}
+
+/* Id Styles */
+#Fname,
+#Lname,
+#Pword,
+#Email,
+#Pnum{
+    margin-top: 30px;
+    padding-right:158px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+/* Inputs styles */
+.Inputs{
+    margin: 31px;
+}
+
+/* Button Styles */
+button{
+    align-items: center;
+    margin-top: 29px;
+    width: 340px;
+    padding: 10px;
+    background-color: rgb(83, 215, 224);
+    border-radius: 8px;
+    box-shadow: rgb(10, 138, 131);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width:670px){
+    .container{
+        width: 595px;
+    }
+}
+    @media screen and (max-width:573px){
+        .container{
+            width: 540px;
+}
+    }
+    @media screen and (max-width:380px){
+        .container{
+            width: 510px;
+        }
+    }

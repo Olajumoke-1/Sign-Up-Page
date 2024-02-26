@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="card">
+        <!-- Register text -->
+       <h2><span>Register</h2></span>
+
+       <!-- Text under Register -->
+        <p class="Utext">Create your account. It's free and only takes a minute.</p>
+
+        <!-- Section for the forms -->
+        <div class="Inputs">
+            <form>
+                <input type="text" id="Fname" name="Firstname" placeholder="First Name" pattern="[A-Za-z]{7,}" required>
+                <br>
+                <input type="text" id="Lname" name="Lastname" placeholder="Last Name" pattern="[A-Za-z]{7,}" required>
+                <br>
+                <input type="Email" id="Email" name="Email" placeholder="Email" required>
+                <br>
+                <input type="password" id="Pword" name="Password" placeholder="Password" minlength="9" required>
+                <br>
+                <input type="PhoneNumber" id="Pnum" name="PhoneNumber" placeholder="Phone-Number(10 digits)" pattern="[0-9]{10}" required>
+                <br>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
